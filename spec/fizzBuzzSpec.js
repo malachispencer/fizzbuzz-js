@@ -9,4 +9,8 @@ describe('fizzBuzz', () => {
   it('returns Fizz if number is divisible by 3', () => {
     expect(fizzBuzz(3)).toBe('Fizz');
   });
+
+  it('returns Buzz if number is divisible by 5', () => {
+    expect(fizzBuzz(5)).toEqual('Buzz')
+  });
 });
