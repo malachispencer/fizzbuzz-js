@@ -12,7 +12,7 @@ Introduction to unit testing in JavaScript with Jasmine, using the classic FizzB
 
 4. Add ```"test": "./node_modules/jasmine/bin/jasmine.js"``` to scripts in ```package.json```.
 
-5. Run ```npm test-init``` to initialize Jasmine.
+5. Run ```npm run test-init``` to initialize Jasmine.
 
 ### Running Tests
 
